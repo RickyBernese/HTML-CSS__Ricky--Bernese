@@ -6,6 +6,43 @@
 	from{background-image: url('rickypic/Msunset.png');}
 	to{background-image: url('rickypic/backg.png');}
 }*/
+@media only screen and (max-width: 320px){
+	header{
+		visibility: visible;
+		width: 50%;
+		height: 50%;
+	}
+}
+@media only screen and (max-width: 320px){
+	.lname{
+		padding-left: 10px;
+		font-size: 12px;
+	}
+	#bg{
+	width: auto;
+	}
+	#log{
+		width: fit-content;
+		border-radius: 20%;
+	}
+	body{
+		width: fit-content;
+	}
+	footer{
+		width: auto;
+	}
+	#fpart{
+		width: fit-content;
+		justify-content: center;
+	}
+    .subscribe{
+		width: auto;
+		font-size: 8px;
+		height: 10px;
+	}
+
+}
+
 header{
 	flex-wrap: wrap;
 	position: fixed;
@@ -252,6 +289,7 @@ footer{
 	color: white;
 	font-size: 21px;
 	display: flow-root;
+	text-align: center;
 
 }
 #fmail{
@@ -281,7 +319,6 @@ footer{
 	background-color: darkred;
 	color: whitesmoke;
 	border-color: green;
-	transform: translateY(50px);
 
 }
 /*.uselink{
@@ -301,7 +338,3 @@ footer{
 	color: black;
 		
 }*/
-
-@media screen and (max-width: 600px){
-	
-}
